@@ -21,10 +21,10 @@ function MainContent() {
           </h1>
           <p className="leading-7 lg:text-lg lg:leading-8">
             Kodafe Farms is not your ordinary farm story; we are a trailblazing
-            agricultural firm that's making waves in the aquaculture industry.
-            With a passion for sustainability and a commitment to redefining
-            fish breeding practices, we're here to set new standards and create
-            a sea of positive change!
+            agricultural firm that&apos;s making waves in the aquaculture
+            industry. With a passion for sustainability and a commitment to
+            redefining fish breeding practices, we&apos;re here to set new
+            standards and create a sea of positive change!
           </p>
 
           <div style={{ marginTop: "3rem" }}>
