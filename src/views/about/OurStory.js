@@ -45,29 +45,15 @@ function OurStory() {
           Innovating Aquaculture
         </h1>
         <p className="leading-7 lg:text-lg lg:leading-8">
-          At Kodafe Farms, we're on a mission to redefine aquaculture practices
-          for good! 🏆 Our modern hatcheries, fueled by cutting-edge
+          At Kodafe Farms, we&apos;re on a mission to redefine aquaculture
+          practices for good! 🏆 Our modern hatcheries, fueled by cutting-edge
           Re-circulatory Aquaculture System (RAS) technology, showcase our
           unwavering commitment to innovation and environmental responsibility.
           Our fish live their best lives, and our planet thrives as we conserve
           water and energy. 🌱💧 Join us in our quest for a more sustainable and
           eco-friendly tomorrow! 🌊🌿
         </p>
-
-        {/* <div style={{ marginTop: "3rem" }}>
-          <Button className="bg-background text-white rounded-sm lg:text-lg lg:font-normal py-8 px-12">
-            About us
-          </Button>
-        </div> */}
       </div>
-
-      {/* <div className="min-h-[300px] max-h-[500px]">
-        <img
-          className="h-full w-full max-h-full max-w-full object-cover"
-          src="https://res.cloudinary.com/dikleyjwz/image/upload/v1698763543/grid-image-2_kiufgw.jpg"
-          alt="woman showing ripped fruit"
-        />
-      </div> */}
 
       <p className="lg:col-span-2 leading-7 lg:text-lg lg:leading-8">
         At Kodafe Farms, we believe in sharing our expertise and know-how. Our
