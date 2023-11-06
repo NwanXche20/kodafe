@@ -28,7 +28,7 @@ function FooterLink({ children, to, ...props }) {
 
 function SocialLink({ children, to, ...props }) {
   return (
-    <Link href={to} {...props}>
+    <Link href={to} target="_blank" {...props}>
       <div className="bg-white text-background rounded-full flex justify-center items-center p-3 transition-all ease-in-out duration-700 hover:text-white hover:bg-background">
         {children}
       </div>
@@ -63,13 +63,13 @@ function Footer() {
             </p>
 
             <div className="flex items-center gap-3">
-              <SocialLink to="/">
+              <SocialLink to="https://www.facebook.com">
                 <FaFacebookF />
               </SocialLink>
-              <SocialLink to="/">
+              <SocialLink to="https://www.twitter.com">
                 <FaTwitter />
               </SocialLink>
-              <SocialLink to="/">
+              <SocialLink to="https://www.linkedin.com">
                 <FaLinkedinIn />
               </SocialLink>
             </div>
@@ -78,10 +78,10 @@ function Footer() {
             <h3 className="text-2xl capitalize font-medium">useful links</h3>
 
             <ul className="space-y-2">
-              <FooterLink to="/">about our company</FooterLink>
-              <FooterLink to="/">our best services</FooterLink>
-              <FooterLink to="/">our talented team</FooterLink>
-              <FooterLink to="/">contact with us</FooterLink>
+              <FooterLink to="/about">about our company</FooterLink>
+              <FooterLink to="/services">our best services</FooterLink>
+              <FooterLink to="/about">our talented team</FooterLink>
+              <FooterLink to="/contact">contact with us</FooterLink>
             </ul>
           </div>
           <div className="space-y-4">
@@ -103,7 +103,7 @@ function Footer() {
       </div>
 
       <div className="bg-white">
-        <div className="w-[90%] md:w-[85%] mx-auto py-4">
+        <div className="w-[90%] md:w-[85%] mx-auto py-4 text-center">
           Copyright © 2023{" "}
           <span className="font-semibold">
             Kodafe<sup>farms</sup>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -20,12 +21,17 @@ function Hero() {
           style={{ marginTop: "3rem" }}
           className="flex items-center gap-10 w-fit text-white"
         >
-          <button className="bg-transparent font-medium border-2 border-yellow-600 rounded-md px-6 py-4 transition-all ease-in-out duration-500 hover:bg-yellow-600 hover:text-inherit">
-            Contact us
-          </button>
-          <button className="bg-transparent border border-[#f2f2f2] font-medium rounded-md px-6 py-4 transition-all ease-in-out duration-500 hover:bg-[#f2f2f2] hover:text-background">
-            Email us
-          </button>
+          <Link href="/contact">
+            <button className="bg-transparent font-medium border-2 border-yellow-600 rounded-md px-6 py-4 transition-all ease-in-out duration-500 hover:bg-yellow-600 hover:text-inherit">
+              Contact us
+            </button>
+          </Link>
+
+          <Link href="mailto:kodafe@mail.com">
+            <button className="bg-transparent border border-[#f2f2f2] font-medium rounded-md px-6 py-4 transition-all ease-in-out duration-500 hover:bg-[#f2f2f2] hover:text-background">
+              Email us
+            </button>
+          </Link>
         </div>
       </div>
 

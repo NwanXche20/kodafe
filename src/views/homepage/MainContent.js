@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 function MainContent() {
   return (
@@ -28,9 +29,11 @@ function MainContent() {
           </p>
 
           <div style={{ marginTop: "3rem" }}>
-            <Button className="bg-background text-white rounded-sm lg:text-lg lg:font-normal py-8 px-12">
-              Get in Touch
-            </Button>
+            <Link href="/contact">
+              <Button className="bg-background text-white rounded-sm lg:text-lg lg:font-normal py-8 px-12">
+                Get in Touch
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -76,9 +79,11 @@ function MainContent() {
           </ul>
 
           <div style={{ marginTop: "3rem" }}>
-            <Button className="bg-background text-white rounded-sm lg:text-lg lg:font-normal py-8 px-12">
-              About us
-            </Button>
+            <Link href="/about">
+              <Button className="bg-background text-white rounded-sm lg:text-lg lg:font-normal py-8 px-12">
+                About us
+              </Button>
+            </Link>
           </div>
         </div>
 

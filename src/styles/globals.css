@@ -105,3 +105,39 @@
   right: 0px;
   /* top: 0; */
 }
+
+.aboutHero::before {
+  content: "";
+  background-image: url(https://res.cloudinary.com/dikleyjwz/image/upload/v1698931250/pexels-quang-nguyen-vinh-2152963_l3dqw7.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.contactHero::before {
+  content: "";
+  background-image: url(https://res.cloudinary.com/dikleyjwz/image/upload/v1699208394/pexels-george-desipris-818252_hzynkv.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.servicesHero::before {
+  content: "";
+  background-image: url(https://res.cloudinary.com/dikleyjwz/image/upload/v1699283247/pexels-meruyert-gonullu-7317571_hmvycy.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
