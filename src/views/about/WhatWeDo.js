@@ -3,8 +3,8 @@ import React from "react";
 
 function ListMarker({ children, ...props }) {
   return (
-    <li className="flex items-center gap-3 lg:gap-5" {...props}>
-      <div className="w-8 h-8 lg:w-10 lg:h-10 bg-background rounded-full flex justify-center items-center text-white">
+    <li className="flex items-start md:items-center gap-3 lg:gap-5" {...props}>
+      <div className="mt-1 md:mt-0 w-8 h-8 lg:w-10 lg:h-10 bg-background rounded-full flex justify-center items-center text-white">
         ✓
       </div>
       <p className="break-words flex-1 leading-7 lg:text-lg lg:leading-8">
