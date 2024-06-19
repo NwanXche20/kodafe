@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function MainContent() {
   return (
-    <div className="grid grid-cols-1 gap-20 w-[90%] lg:w-[85%] mx-auto">
+    <div className="grid grid-cols-1 gap-20 w-[90%] lg:w-[85%] mx-auto max-w-[1600px]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
         <div className="min-h-[300px] max-h-[500px]">
           <img

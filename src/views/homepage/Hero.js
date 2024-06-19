@@ -3,7 +3,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="px-4 py-10 md:py-10 md:px-0 lg:pt-10 lg:pb-20 w-full md:w-[85%] mx-auto flex flex-col-reverse md:flex-row justify-between items-center gap-6">
+    <div className="px-4 py-10 md:py-10 md:px-0 lg:pt-10 lg:pb-20 w-full md:w-[85%] max-w-[1600px] mx-auto flex flex-col-reverse md:flex-row justify-between items-center gap-6">
       <div className="w-full md:w-[120%] space-y-3 xl:space-y-6 break-words">
         <h1 className="text-4xl leading-[50px] md:leading-[60px] md:text-4xl lg:text-5xl xl:text-7xl text-white font-semibold lg:leading-[80px] whitespace-break-spaces">
           Welcome to{" "}

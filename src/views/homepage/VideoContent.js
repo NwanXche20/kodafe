@@ -19,7 +19,7 @@ const VideoContent = () => {
   };
 
   return (
-    <div>
+    <div className="max-w-[1600px] mx-auto">
       <h1
         className="mb-10 lg:mb-14 text-center text-4xl lg:text-6xl lg:leading-[70px] font-medium text-background"
         style={{ fontFamily: "cursive" }}

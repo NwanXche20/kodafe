@@ -80,8 +80,8 @@ export default function Nav() {
       </nav>
 
       <nav className="hidden md:block bg-background text-white sticky top-[-1px] z-50 shadow-md">
-        <div className="w-[85%] mx-auto py-2 lg:py-4 flex justify-between items-center gap-4">
-          <div className="text-5xl lg:text-6xl font-semibold">
+        <div className="w-[85%] max-w-[1600px] mx-auto py-2 lg:py-4 flex justify-between items-center gap-4">
+          <div className="text-5xl lg:text-6xl font-semibold lg:font-bold">
             <Link href="/">
               Kodafe<sup className="text-base lg:text-lg">farms</sup>
             </Link>

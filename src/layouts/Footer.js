@@ -51,7 +51,7 @@ function Footer() {
   return (
     <div>
       <div className="bg-[#f8f8f1] text-lg leading-9">
-        <div className="py-20 lg:py-24 w-[90%] md:w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 place-content-center">
+        <div className="py-20 lg:py-24 w-[90%] md:w-[85%] max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 place-content-center">
           <div className="space-y-4">
             <div className="text-5xl lg:text-6xl text-background font-semibold">
               Kodafe<sup className="text-base lg:text-lg">farms</sup>
@@ -102,8 +102,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-white">
-        <div className="w-[90%] md:w-[85%] mx-auto py-4 text-center">
+      <div className="bg-white ">
+        <div className="w-[90%] md:w-[85%] max-w-[1600px] mx-auto py-4 text-center">
           Copyright © 2023{" "}
           <span className="font-semibold">
             Kodafe<sup>farms</sup>
