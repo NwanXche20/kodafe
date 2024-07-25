@@ -30,7 +30,7 @@ const VideoContent = () => {
       <div className="lg:h-screen relative">
         <video
           className="w-full h-full lg:object-cover"
-          src="https://res.cloudinary.com/dikleyjwz/video/upload/v1698761283/video_2160p_ouu7rb.mp4"
+          src="https://res.cloudinary.com/dikleyjwz/video/upload/v1721901953/video_2160p_ouu7rb_2_hqpdub.mp4"
           ref={vidRef}
           type="video/mp4"
           loop

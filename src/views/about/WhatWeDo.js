@@ -62,7 +62,7 @@ function WhatWeDo() {
       <div className="min-h-[300px] max-h-[500px]">
         <img
           className="h-full w-full max-h-full max-w-full object-cover"
-          src="https://res.cloudinary.com/dikleyjwz/image/upload/v1698763543/grid-image-2_kiufgw.jpg"
+          src="https://res.cloudinary.com/dikleyjwz/image/upload/v1721906053/grid-image-2_kiufgw_1_d6gows.jpg"
           alt="woman showing ripped fruit"
         />
       </div>

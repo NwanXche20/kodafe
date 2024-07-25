@@ -9,7 +9,7 @@ function MainContent() {
         <div className="min-h-[300px] max-h-[500px]">
           <img
             className="h-full max-h-full max-w-full w-full object-cover"
-            src="https://res.cloudinary.com/dikleyjwz/image/upload/v1698763544/grid-image-1_xfpih1.jpg"
+            src="https://res.cloudinary.com/dikleyjwz/image/upload/v1721906053/grid-image-1_xfpih1_1_ymagv8.jpg"
             alt="woman showing ripped fruit"
           />
         </div>
@@ -90,7 +90,7 @@ function MainContent() {
         <div className="min-h-[300px] max-h-[500px]">
           <img
             className="h-full w-full max-h-full max-w-full object-cover"
-            src="https://res.cloudinary.com/dikleyjwz/image/upload/v1698763543/grid-image-2_kiufgw.jpg"
+            src="https://res.cloudinary.com/dikleyjwz/image/upload/v1721906053/grid-image-2_kiufgw_1_d6gows.jpg"
             alt="woman showing ripped fruit"
           />
         </div>
