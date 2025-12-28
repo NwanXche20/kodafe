@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="px-4 py-10 md:py-10 md:px-0 lg:pt-10 lg:pb-20 w-full md:w-[85%] max-w-[1600px] mx-auto flex flex-col-reverse md:flex-row justify-between items-center gap-6">
       <div className="w-full md:w-[120%] space-y-3 xl:space-y-6 break-words">
-        <h1 className="text-4xl leading-[50px] md:leading-[60px] md:text-4xl lg:text-5xl xl:text-7xl text-white font-semibold lg:leading-[80px] whitespace-break-spaces">
+        <h1 className="text-4xl leading-[50px] md:leading-[60px] md:text-4xl lg:text-5xl xl:text-6xl text-white font-semibold lg:leading-[80px] whitespace-break-spaces">
           Welcome to{" "}
           <span className="text-yellow-600">
             Kodafe<sup className="text-lg">farms</sup>
@@ -13,7 +13,7 @@ function Hero() {
           and Allied Services Ltd.
         </h1>
 
-        <h5 className="text-white text-lg md:text-xl xl:text-[22px] leading-10">
+        <h5 className="text-white text-lg md:text-xl leading-10">
           Your gateway to a revolutionary aquaculture experience in Nigeria! 🚀
         </h5>
 
@@ -37,7 +37,7 @@ function Hero() {
 
       <div className="h-96 w-full md:w-[80%] mx-auto md:mx-0 md:h-[500px]">
         <img
-          className="opacity-90 max-h-full h-full w-full max-w-full object-cover shadow-md"
+          className="opacity-90 max-h-full h-full w-full max-w-full object-cover shadow-md rounded-md"
           src="/images/hero-image3.jpg"
           alt="woman showing ripped fruit"
         />

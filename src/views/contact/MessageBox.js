@@ -79,7 +79,7 @@ function MessageBox() {
 
             <textarea
               required
-              placeholder="Let's here from you"
+              placeholder="Let's hear from you"
               rows={5}
               className="outline-none w-full p-3 border border-background rounded-sm bg-transparent resize-none"
             ></textarea>

@@ -53,7 +53,7 @@ function Footer() {
       <div className="bg-[#f8f8f1] text-lg leading-9">
         <div className="py-20 lg:py-24 w-[90%] md:w-[85%] max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 place-content-center">
           <div className="space-y-4">
-            <div className="text-5xl lg:text-6xl text-background font-semibold">
+            <div className="text-[40px] lg:text-5xl text-background font-semibold lg:font-bold">
               Kodafe<sup className="text-base lg:text-lg">farms</sup>
             </div>
 

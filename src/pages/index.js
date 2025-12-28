@@ -9,7 +9,7 @@ export default function Home() {
         <Hero />
       </header>
 
-      <main className="bg-white py-20 lg:pb-28 space-y-24 lg:space-y-36">
+      <main className="bg-white py-20 lg:py-32 space-y-24 lg:space-y-36">
         <MainContent />
         <VideoContent />
       </main>
